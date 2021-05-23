@@ -1,0 +1,39 @@
+#form {
+  max-width: 80ch;
+}
+
+label {
+  display: block;
+}
+
+.form-field-wrapper {
+  margin-bottom: 20px;
+}
+
+input {
+  width: 100%;
+  min-height: 35px;
+  padding: 7px;
+  outline-color: var(--accent);
+}
+
+textarea {
+  padding: 7px;
+  outline-color: var(--accent);
+}
+
+button {
+  padding: 8px 50px;
+}
+
+.form-error {
+  display: none;
+  color: red;
+  margin-top: 5px;
+}
+
+.successmessage {
+  display: none;
+  margin-top: 30px;
+  color: green;
+}

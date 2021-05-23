@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog | Nordic Nomad</title>
+    <meta name="description" content="All the blog posts on Nordic Nomad." />
+    <link rel="icon" href="./images/Noridc-Nomad-Favicon.svg" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Hotjar Tracking Code for https://vibrant-hugle-d701e8.netlify.app/ -->
+    <script>
+      (function (h, o, t, j, a, r) {
+        h.hj =
+          h.hj ||
+          function () {
+            (h.hj.q = h.hj.q || []).push(arguments);
+          };
+        h._hjSettings = { hjid: 2306407, hjsv: 6 };
+        a = o.getElementsByTagName("head")[0];
+        r = o.createElement("script");
+        r.async = 1;
+        r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+        a.appendChild(r);
+      })(window, document, "https://static.hotjar.com/c/hotjar-", ".js?sv=");
+    </script>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="container nav">
+          <div class="nav-logo">
+            <a href="./index.html"
+              ><img
+                class="logo-svg"
+                src="./images/Nordic-Nomad-Logo.svg"
+                alt="Logo"
+            /></a>
+          </div>
+          <div class="nav-links-wrapper">
+            <ul class="nav-links">
+              <li><a href="./index.html">Home</a></li>
+              <li><a id="active-nav" href="./blog.html">Blog</a></li>
+              <li><a href="./about.html">About</a></li>
+              <li><a href="./contact.html">Contact</a></li>
+            </ul>
+            <div class="burger">
+              <div class="line1"></div>
+              <div class="line2"></div>
+              <div class="line3"></div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="section grey">
+        <div class="container">
+          <h1>Blog posts</h1>
+          <div class="line-divider"></div>
+          <div class="w30"></div>
+          <div class="posts-list">
+            <div class="lds-ring">
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="container footer">
+      <div class="copyright-text">
+        <p>© Nordic Nomad</p>
+      </div>
+    </footer>
+    <script src="./js/posts-page.js"></script>
+    <script src="./js/burger.js"></script>
+  </body>
+</html>
